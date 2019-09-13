@@ -1,0 +1,46 @@
+[role="img"][aria-label]:before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    border-radius: 50px;
+    border: 2px solid grey;
+}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm {}
+.avatarOffline-3GF27z {filter: grayscale(100%);}
+
+.avatarOffline-3GF27z,
+[role="img"][aria-label] {border-radius: 50px;}
+/* Removed old cut out for statsus */
+.avatarOffline-3GF27z foreignObject,
+[role="img"][aria-label] foreignObject {mask: none;}
+/* Makes avitar round */
+.avatarOffline-3GF27z foreignObject img,
+[role="img"][aria-label] foreignObject img {border-radius: 50px;}
+.avatarOffline-3GF27z  svg rect,
+[role="img"][aria-label] svg rect {display: none;}
+
+[role="img"][aria-label*="Online"]:before{
+    border: 2px solid #43b581;
+}
+[role="img"][aria-label*="Do Not Disturb"]:before{
+    border: 2px solid #f04747;
+}
+[role="img"][aria-label*="Idle"]:before{
+     border: 2px solid #faa61a;
+}
+[role="img"][aria-label*="Streaming"]:before{
+    border: 2px solid #6441a5;
+}
+[role="img"][aria-label*="Offline"]:before{
+    border: 2px solid #747f8d;
+}
+.avatarOffline-3GF27z {
+    border: 2px solid #747f8d;
+}
+[role="img"][aria-label*="Invisible"]:before{
+    border: 2px solid #747f8d;
+}
