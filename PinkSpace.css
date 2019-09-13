@@ -182,8 +182,9 @@
 	border: 1px solid;
 	border-color: var(--accent-color-border-hover);
 }
+/*message box background color*/
 .theme-dark .inner-zqa7da, .da-app .search .search-bar {
-	background: rgba(54, 139, 165, 0.45);
+	background: rgba(255, 20, 147, 0.45);
 }
 /* removing a border */
 .theme-dark .select-2TCrqx .is-focused {
@@ -442,8 +443,4 @@
 }
 .searchBar-2_Yu-C {
     background-color: transparent;
-}
-/*message box background color*/
-.theme-dark .inner-zqa7da, .da-app .search .search-bar {
-	background: rgba(255, 20, 147, 0.45);
 }
