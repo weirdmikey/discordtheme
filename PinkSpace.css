@@ -1,7 +1,20 @@
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 /* Background */
-.da-appMount {
-    background: var(--background-image);
+.app,
+.app-2rEoOp {
+	background-image: url(https://schliferclinic.com/wp-content/uploads/2015/12/parallax-dark-space.jpg);
+    	position: absolute;
+    	content: '';
+      	height: 100%;
+      	width: 100%;
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-position: center;
+}
+.layer-3QrUeG,
+.layers-3iHuyZ,
+.container-2lgZY8 {
+	background: transparent !important;
 }
 
 /* removing more backgrounds - theme based */
