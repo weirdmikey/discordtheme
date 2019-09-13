@@ -101,7 +101,8 @@
 }
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .theme-dark .changeDetails-bk98pu, .theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z, .theme-dark .searchAnswer-3Dz2-q,
  .theme-dark .searchFilter-2ESiM3, .theme-dark .accountBtnInner-sj5jLs:hover, .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
-	background-color: var(--accent-color);
+	 background-color: black;
+	background-color: rgba(0,0,0, 0.9);
 }
 .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
     background: rgba(29, 185, 84, 0.69);
