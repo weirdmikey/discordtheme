@@ -16,6 +16,9 @@
 .container-2lgZY8 {
 	background: transparent !important;
 }
+.theme-dark {
+	--deprecated-panel-background: ~0000001c !important;
+}
 
 /* removing more backgrounds - theme based */
 .da-app .markup-2BOw-j pre, .userSettingsVoice-iwdUCU .media-engine-video, .search-bar .search-bar-inner, .da-app .tag-HanR-9:before, #bda-qem, .da-app .wrapper-29NfPK,
