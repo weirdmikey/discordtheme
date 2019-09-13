@@ -49,6 +49,11 @@
 .wrapper-2NJDcI {
     color: #bec0c3;
 }
+/*message box background color*/
+.theme-dark .inner-zqa7da, .da-app .search .search-bar {
+	background: rgba(255, 20, 147, 0.45);
+}
+
 /* accent color, buttons */
 .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a, .lookFilled-1Gx00P.colorBrand-3pXr91, .side-8zPYf6 .itemSelected-1qLhcL,
  .da-app #bd-settings-sidebar .ui-tab-bar-item.selected, .bd-pfbtn, .bda-slist .bda-footer button, .selected-mKYnfr.option-n0icdO, .wrapper-3jrx9n, .barFill-23-gu-, .da-app .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,
@@ -114,7 +119,8 @@
 }
 .theme-dark .quickMessage-1yeL4E {
 	border: 2px solid;
-	background-color: var(--submenu-color);
+	background-color: black;
+	background-color: rgba(255,20,147,0.45);
     border-color: var(--accent-color-border);
 }
 .headerTop-3C2Zn0 {
