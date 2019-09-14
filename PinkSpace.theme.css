@@ -1,0 +1,42 @@
+/*//META{"name":"PinkSpace","description":"A pink theme in space.","author":"Amerak","version":"1.1.1","source":"https://github.com/weirdmikey/discordtheme/blob/master/PinkSpace.css"}*//**/ 
+
+@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency.css);
+@import url(https://raw.githack.com/weirdmikey/discordtheme/master/PinkSpace.css);
+@import url(https://raw.githack.com/weirdmikey/discordtheme/master/status.css);
+
+
+:root {
+	/* background URL */
+	--background-image: url(https://schliferclinic.com/wp-content/uploads/2015/12/parallax-dark-space.jpg) center/cover no-repeat;
+	/* Guild and Top bar transparency */
+	--transparency-1: linear-gradient(to left, rgba(0,0,0,0.85), rgba(0,0,0,0.75));
+    /* transparency of top windows bar works different from the top one for some reason you have to try different values to match transparecy (aprox value is top value x 3 = result) */
+	--transparency-level-top: rgba(0,0,0,0.34);
+	/* transparency for channels and private channels */
+	--transparency-2: linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0.65));
+	/* chat and top area and other secondary pages */
+	--transparency-3: linear-gradient(to right, rgba(0,0,0,0.65), rgba(0,0,0,0.55));
+	/* member list */
+	--transparency-4: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.65));
+	/* transparecy with gradient of top bar */
+	--transparency-5: linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0.75),rgba(0,0,0,0.65), rgba(0,0,0,0.62), rgba(0,0,0,0.60),rgba(0,0,0,0.55), rgba(0,0,0,0.55));
+	
+	/* Background color of markdown box */
+	--markdown-background-color: rgba(0, 0, 0, 0.85);
+	/* Border of markdown text */
+	--markdown-border-color: rgba(255, 20, 147, 0.45);
+	/* accent color, applies to buttons */
+	--accent-color: rgba(255, 20, 147, 0.6);
+	/* accent color for the border */
+	--accent-color-border: rgba(0, 0, 0, 0.7);
+	/* accent color hover state */
+	--accent-color-hover: rgba(255, 20, 147, 0.2);
+	/* acent color border hover state */
+	--accent-color-border-hover: rgba(54, 139, 165, 0.20);
+	/* Checker ON/OFF */
+	--checker-on: rgba(54, 139, 165, 0.35);
+	--checker-off: rgba(11, 39, 45, 0.60);
+	/* Sub Menu's background color and hover */
+	--submenu-color: rgba(255, 20, 147, 0.45);
+	--submenu-hover: rgba(3, 12, 21, 0.25);
+}
