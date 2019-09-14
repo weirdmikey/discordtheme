@@ -233,7 +233,7 @@ background-color: var(--markdown-border-color) }
 
 /* Discord Icon color */ 
 .childWrapper-anI2G9 {
-    color:var(--markdown-border-color);    
+    color:var(--accent-color);    
 }
 /* + button of guilds */
 .theme-dark .circleIconButton-jET_ig {
