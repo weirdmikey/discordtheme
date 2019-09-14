@@ -2,7 +2,7 @@
 /* Background */
 .app,
 .app-2rEoOp {
-	background-image: url(https://schliferclinic.com/wp-content/uploads/2015/12/parallax-dark-space.jpg);
+	background-image: var(--background-image);
     	position: absolute;
     	content: '';
       	height: 100%;
@@ -16,6 +16,7 @@
 .container-2lgZY8 {
 	background: transparent !important;
 }
+/*Makes more area's Transparent */
 .theme-dark {
 	--deprecated-panel-background: #0000001c !important;
 	--background-primary: rgba(0, 0, 0, 0) !important;
@@ -27,6 +28,11 @@
 .create-guild-container.deprecated .create-or-join .form-inner {
 	background: none;
 }
+
+/* Emoji picker background */
+.bda-dark .emojiPicker-3m1S-j, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
+background-color: var(--markdown-border-color) }
+
 
 /* markdown box background and border */
 .da-app .markup-2BOw-j code, .da-app .markup-2BOw-j code.inline, .theme-dark .markup-2BOw-j pre, .option-n0icdO:hover, .da-app .cardPrimaryOutline-29Ujqw,
@@ -203,7 +209,7 @@
 }
 /*message box background color*/
 .theme-dark .inner-zqa7da, .da-app .search .search-bar {
-	background: rgba(255, 20, 147, 0.45);
+	background: var(--markdown-border-color);
 }
 /* removing a border */
 .theme-dark .select-2TCrqx .is-focused {
@@ -225,6 +231,10 @@
 	background-color: var(--accent-color)!important;
 }
 
+/* Discord Icon color */ 
+.childWrapper-anI2G9 {
+    color:var(--markdown-border-color);    
+}
 /* + button of guilds */
 .theme-dark .circleIconButton-jET_ig {
 	background-color: var(--accent-color);
@@ -271,13 +281,6 @@
 .theme-dark .item-1Yvehc:hover {
 	border-left: 4px solid #226980;
     border-radius: 3px;
-}
-/* custom emoji button and border and box shadow */
-#bda-qem button {
-	background-color: rgba(18, 63, 80, 0.35);
-	border-left: 1px solid var(--accent-color-border);
-	box-shadow: var(--accent-color-border) 1px 0 0 0;
-	color: #b5b5b5;
 }
 /* scroll bar */
 .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb, .scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG::-webkit-scrollbar-thumb,
