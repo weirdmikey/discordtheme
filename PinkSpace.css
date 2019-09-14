@@ -16,11 +16,13 @@
 .container-2lgZY8 {
 	background: transparent !important;
 }
-/*Makes more area's Transparent */
+/*Makes more area's Transparent and changes Hover color */
 .theme-dark {
 	--deprecated-panel-background: #0000001c !important;
 	--background-primary: rgba(0, 0, 0, 0) !important;
 	--background-secondary: rgba(0, 0, 0, 0) !important:
+	--background-modifier-hover:var(--accent-color-hover);
+   	--background-modifier-selected:var(--accent-color);
 }
 
 /* removing more backgrounds - theme based */
@@ -31,8 +33,11 @@
 
 /* Emoji picker background */
 .bda-dark .emojiPicker-3m1S-j, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
-background-color: var(--markdown-border-color) }
-
+background-color: var(--markdown-border-color)
+}
+.inner-3ErfOT {
+background: black;
+}
 
 /* markdown box background and border */
 .da-app .markup-2BOw-j code, .da-app .markup-2BOw-j code.inline, .theme-dark .markup-2BOw-j pre, .option-n0icdO:hover, .da-app .cardPrimaryOutline-29Ujqw,
