@@ -95,6 +95,21 @@ background: black;
 	background: var(--accent-color-hover);
 	border: none;
 }
+/* accent color, hover buttons */
+.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active,  .channel-2QD9_O:hover a, .da-app .side-8zPYf6 .itemDefault-3Jdr52:hover,
+ .lookFilled-1Gx00P.colorBrand-3pXr91:hover, .da-app #bd-settings-sidebar .ui-tab-bar-item:hover, .option-n0icdO, .da-app .member-3W1lQa:hover .content-OzHfo4, .theme-dark #friends .friends-table .friends-row:hover,
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected), .da-app .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .form.deprecated .form-inner, .need-help-modal.form.deprecated .footer,
+.need-help-modal.form.deprecated .header input[type=text], .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected),
+.create-guild-container.deprecated .action:hover.create .btn {
+	background: var(--accent-color-hover);
+	border: 2px solid;
+	border-color: var(--accent-color-border-hover);
+}
+/* hover only for border*/
+.theme-dark .messageGroupWrapper-o-Zw7G:hover, .da-app .input-cIJ7To:hover, .button-2KyEfG:hover {
+	border: 2px solid;
+	border-color: var(--accent-color-border-hover);
+}
 /* send message button */
 .lookInverted-2D7oAl.colorGreen-29iAKY {
     background-color: rgba(29, 121, 152, 0.59);
@@ -130,7 +145,7 @@ background: black;
 .theme-dark .quickMessage-1yeL4E {
 	border: 2px solid;
 	background-color: black;
-	background-color: rgba(255,20,147,0.45);
+	background-color: var(--submenu-color);
     border-color: var(--accent-color-border);
 }
 .headerTop-3C2Zn0 {
