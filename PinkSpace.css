@@ -20,7 +20,7 @@
 .theme-dark {
 	--deprecated-panel-background: #0000001c !important;
 	--background-primary: rgba(0, 0, 0, 0) !important;
-	--background-secondary: rgba(0, 0, 0, 0) !important:
+	--background-secondary: rgba(0, 0, 0, 0) !important;
 	--background-modifier-hover:var(--accent-color-hover);
    	--background-modifier-selected:var(--accent-color);
 }
