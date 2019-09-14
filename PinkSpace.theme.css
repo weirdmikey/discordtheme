@@ -24,7 +24,7 @@
 	/* Background color of markdown box */
 	--markdown-background-color: rgba(0, 0, 0, 0.85);
 	/* Border of markdown text */
-	--markdown-border-color: rgba(255, 20, 147, 0.45);
+	--markdown-border-color: rgba(105, 105, 105, 0.5);
 	/* accent color, applies to buttons */
 	--accent-color: rgba(255, 20, 147, 0.6);
 	/* accent color for the border */
