@@ -95,21 +95,6 @@ background: black;
 	background: var(--accent-color-hover);
 	border: none;
 }
-/* accent color, hover buttons */
-.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active,  .channel-2QD9_O:hover a, .da-app .side-8zPYf6 .itemDefault-3Jdr52:hover,
- .lookFilled-1Gx00P.colorBrand-3pXr91:hover, .da-app #bd-settings-sidebar .ui-tab-bar-item:hover, .option-n0icdO, .da-app .member-3W1lQa:hover .content-OzHfo4, .theme-dark #friends .friends-table .friends-row:hover,
-.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected), .da-app .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .form.deprecated .form-inner, .need-help-modal.form.deprecated .footer,
-.need-help-modal.form.deprecated .header input[type=text], .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected),
-.create-guild-container.deprecated .action:hover.create .btn {
-	background: var(--accent-color-hover);
-	border: 2px solid;
-	border-color: var(--accent-color-border-hover);
-}
-/* hover only for border*/
-.theme-dark .messageGroupWrapper-o-Zw7G:hover, .da-app .input-cIJ7To:hover, .button-2KyEfG:hover {
-	border: 2px solid;
-	border-color: var(--accent-color-border-hover);
-}
 /* send message button */
 .lookInverted-2D7oAl.colorGreen-29iAKY {
     background-color: rgba(29, 121, 152, 0.59);
@@ -261,9 +246,6 @@ background: black;
 /* fixing some code */
 .theme-dark .option-96V44q:after {
 	display:none;
-}
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
-    border-bottom-color: var(--accent-color-border);
 }
 /* submenu's */
 .theme-dark.contextMenu-HLZMGh, .theme-dark .menu-Sp6bN1, .da-app .messageGroupBlocked-3wrQQX.revealed-1_RKsf, .theme-dark .container-3ayLPN,
@@ -420,15 +402,6 @@ background: black;
 	background-color: var(--accent-color-hover)!important;
 	border: 2px solid var(--accent-color-hover)!important;
 }
-
-/* fix for emoji menu */
-.da-header .da-searchBar, .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
-    background: none;
-}
-.searchBar-2_Yu-C .searchBarInner-1_Tg2R {
-    background: transparent;
-}
-
 /* nitro area */
 .theme-dark .gradientOverlayLeft-3w159C {
     background-image: linear-gradient(90deg,var(--submenu-color),rgba(54,57,63,0));
