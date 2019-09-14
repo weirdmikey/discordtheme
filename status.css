@@ -1,13 +1,13 @@
 [role="img"][aria-label]:before {
     content: "";
     position: absolute;
-    top: -2px;
-    left: -2px;
+    top: -3px;
+    left: -3px;
     width: 100%;
     height: 100%;
     z-index: 20;
     border-radius: 50px;
-    border: 2px solid grey;
+    border: 3px solid grey;
 }
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm {}
 .avatarOffline-3GF27z {filter: grayscale(100%);}
@@ -24,23 +24,23 @@
 [role="img"][aria-label] svg rect {display: none;}
 
 [role="img"][aria-label*="Online"]:before{
-    border: 2px solid #43b581;
+    border: 3px solid #43b581;
 }
 [role="img"][aria-label*="Do Not Disturb"]:before{
-    border: 2px solid #f04747;
+    border: 3px solid #f04747;
 }
 [role="img"][aria-label*="Idle"]:before{
-     border: 2px solid #faa61a;
+     border: 3px solid #faa61a;
 }
 [role="img"][aria-label*="Streaming"]:before{
-    border: 2px solid #6441a5;
+    border: 3px solid #6441a5;
 }
 [role="img"][aria-label*="Offline"]:before{
-    border: 2px solid #747f8d;
+    border: 3px solid #747f8d;
 }
 .avatarOffline-3GF27z {
-    border: 2px solid #747f8d;
+    border: 3px solid #747f8d;
 }
 [role="img"][aria-label*="Invisible"]:before{
-    border: 2px solid #747f8d;
+    border: 3px solid #747f8d;
 }
