@@ -47,9 +47,9 @@ background: black;
 	background: var(--markdown-background-color);
 	border-color: var(--markdown-border-color);
 }
-/* another stuff */
+/* user info popout box thingy. */
 .theme-dark .body-3ND3kc {
-	background: var(--accent-color);
+	background: var(--markdown-background-color);
 }
 .theme-dark .userInfoSection-2acyCx+.userInfoSection-2acyCx, .userInfoSection-2acyCx+.userInfoSection-2acyCx, .theme-dark .userInfoSection-2acyCx+.userInfoSection-2acyCx {
 	border-bottom: 2px solid var(--markdown-border-color);
@@ -214,7 +214,7 @@ background: black;
 }
 /*message box background color*/
 .theme-dark .inner-zqa7da, .da-app .search .search-bar {
-	background: var(--markdown-border-color);
+	background: var(--accent-color);
 }
 /* removing a border */
 .theme-dark .select-2TCrqx .is-focused {
