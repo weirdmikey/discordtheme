@@ -129,7 +129,7 @@ background: black;
 	background-color: var(--submenu-color);
 }
 /* Info popout Roles/notes background color */
-.theme-dark .body-3iLsc4, .theme-dark .bodyInner-245q0l, .theme-dark .footer-1fjuF6, .theme-dark .changeDetails-bk98pu, .theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z, .theme-dark .searchAnswer-3Dz2-q,
+.theme-dark .body-3iLsc4, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6, .theme-dark .changeDetails-bk98pu, .theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z, .theme-dark .searchAnswer-3Dz2-q,
  .theme-dark .searchFilter-2ESiM3, .theme-dark .accountBtnInner-sj5jLs:hover, .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
 	 background-color: black;
 	background-color: var(--accent-color-border);
