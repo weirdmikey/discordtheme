@@ -26,7 +26,7 @@
 [role="img"][aria-label*="Online"]:before{
     border: 3px solid #43b581;
 }
-[role="img"][aria-label*="Do Not Disturb"]:before{
+[role="img"][aria-label*="DnD"]:before{
     border: 3px solid #f04747;
 }
 [role="img"][aria-label*="Idle"]:before{
