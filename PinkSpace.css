@@ -30,6 +30,10 @@
 .create-guild-container.deprecated .create-or-join .form-inner {
 	background: none;
 }
+/* Removes unsessisary backgrounds */
+.theme-dark .container-1D34oG, .footer-3UKYOU, .bodyInnerWrapper-26fQXj{
+background: none;
+}
 
 /* Open on hover channel side bar */
 .sidebar-2K8pFh{
@@ -60,7 +64,13 @@ background-color:var(--accent-color);
 	background: var(--markdown-background-color);
 	border-color: var(--markdown-border-color);
 }
-/* user info popout box thingy. */
+/* user info popout box. */
+.userPopout-xaxa6l{
+background-color:var (--submenu-color);
+}
+.input-2_SIlA{
+background-color:black;
+}
 .theme-dark .body-3ND3kc {
 	background: var(--markdown-background-color);
 }
@@ -76,6 +86,12 @@ background-color:var(--accent-color);
 	background: var(--markdown-background-color);
 	border: 2px solid var(--markdown-border-color);
 }
+
+/* Threads popout */
+.container-7uh5fX{
+background-color:var(--submenu-color);
+}
+
 .theme-dark .jumpButton-3DTcS_, .theme-dark .questionMark-CWEQZn {
 	background-color: var(--accent-color);
 }
