@@ -31,6 +31,14 @@
 	background: none;
 }
 
+/* Open on hover channel side bar */
+.sidebar-2K8pFh{
+    width: 50px;
+}
+.sidebar-2K8pFh:hover{
+    width: 250px;
+}
+
 /* Emoji & GIF picker background */
 .theme-dark .contentWrapper-SvZHNd{
     background-color:var(--submenu-color);
