@@ -71,6 +71,7 @@ background-color:var(--accent-color);
 .theme-dark .connectedAccount-36nQx7, .theme-dark .messageGroupWrapper-o-Zw7G {
 	border: 2px solid var(--markdown-border-color);
 }
+/* pinned message popout*/
 .theme-dark .messagesPopoutWrap-1MQ1bW {
 	background: var(--markdown-background-color);
 	border: 2px solid var(--markdown-border-color);
