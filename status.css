@@ -17,8 +17,13 @@
     margin: 4px 12px 4px;
 }
 
+/* Remove board around avatar in popup */
+.avatar-37jOim{
+border: none;
+}
+
 .avatarOffline-3GF27z,
-[role="img"][aria-label] {border-radius: 100px;}
+[role="img"][aria-label] {border: none;}
 /* Removed old cut out for statsus */
 .avatarOffline-3GF27z foreignObject,
 [role="img"][aria-label] foreignObject {mask: none;}
