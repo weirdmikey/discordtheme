@@ -12,8 +12,13 @@
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm {}
 .avatarOffline-3GF27z {filter: grayscale(100%);}
 
+/* padding for icons in friends list */
+.avatar-3W3CeO{
+    margin: 4px 12px 4px 0;
+}
+
 .avatarOffline-3GF27z,
-[role="img"][aria-label] {border-radius: 50px;}
+[role="img"][aria-label] {border-radius: 100px;}
 /* Removed old cut out for statsus */
 .avatarOffline-3GF27z foreignObject,
 [role="img"][aria-label] foreignObject {mask: none;}
