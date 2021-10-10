@@ -34,10 +34,11 @@
 /* Open on hover channel side bar */
 .sidebar-2K8pFh{
     width: 58px;
-    transition: 0.5s;
+    transition-delay: 1.2s;
 }
 .sidebar-2K8pFh:hover{
     width: 250px;
+    transition: 0.5s;
 }
 
 /* Emoji & GIF picker background */
