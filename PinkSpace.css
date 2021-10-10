@@ -31,12 +31,15 @@
 	background: none;
 }
 
-/* Emoji picker background */
-.bda-dark .emojiPicker-3m1S-j, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
-background-color: var(--submenu-color)
+/* Emoji & GIF picker background */
+.theme-dark .contentWrapper-SvZHNd{
+    background-color:var(--submenu-color);
 }
 .inner-3ErfOT {
 background: black;
+}
+.inner-2P4tQO{
+    background-color: black;
 }
 
 /* markdown box background and border */
@@ -214,8 +217,8 @@ background: black;
 	border-color: var(--accent-color-border-hover);
 }
 /*message box background color*/
-.theme-dark .inner-zqa7da, .da-app .search .search-bar {
-	background: var(--accent-color);
+.theme-dark .scrollableContainer-2NUZem{
+    background-color:var(--submenu-color);
 }
 /* removing a border */
 .theme-dark .select-2TCrqx .is-focused {
